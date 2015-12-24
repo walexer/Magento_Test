@@ -78,15 +78,6 @@
                 </args>
             </paypaluk>
         </routers>
-        <translate>
-            <modules>
-                <Mage_PaypalUk>
-                    <files>
-                        <default>Mage_PaypalUk.csv</default>
-                    </files>
-                </Mage_PaypalUk>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <paypaluk>
@@ -96,15 +87,6 @@
         </layout>
     </frontend>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_PaypalUk>
-                    <files>
-                        <default>Mage_PaypalUk.csv</default>
-                    </files>
-                </Mage_PaypalUk>
-            </modules>
-        </translate>
     </adminhtml>
     <default>
         <payment>

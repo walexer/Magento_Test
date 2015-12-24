@@ -101,15 +101,6 @@
                 </args>
             </directory>
         </routers>
-        <translate>
-            <modules>
-                <Mage_Directory>
-                    <files>
-                        <default>Mage_Directory.csv</default>
-                    </files>
-                </Mage_Directory>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <directory>
@@ -119,15 +110,6 @@
         </layout>
     </frontend>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Directory>
-                    <files>
-                        <default>Mage_Directory.csv</default>
-                    </files>
-                </Mage_Directory>
-            </modules>
-        </translate>
     </adminhtml>
     <default>
         <system>

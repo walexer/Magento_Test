@@ -116,15 +116,6 @@
                 </observers>
             </customer_delete_after>
         </events>
-        <translate>
-            <modules>
-                <Mage_Newsletter>
-                    <files>
-                        <default>Mage_Newsletter.csv</default>
-                    </files>
-                </Mage_Newsletter>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <newsletter>
@@ -161,15 +152,6 @@
                 </args>
             </newsletter>
         </routers>
-        <translate>
-            <modules>
-                <Mage_Newsletter>
-                    <files>
-                        <default>Mage_Newsletter.csv</default>
-                    </files>
-                </Mage_Newsletter>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <newsletter module="Mage_Newsletter">

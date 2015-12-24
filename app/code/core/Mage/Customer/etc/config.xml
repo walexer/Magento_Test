@@ -438,15 +438,6 @@
         </events>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Customer>
-                    <files>
-                        <default>Mage_Customer.csv</default>
-                    </files>
-                </Mage_Customer>
-            </modules>
-        </translate>
     </adminhtml>
     <frontend>
         <secure_url>
@@ -479,15 +470,6 @@
                 </args>
             </customer>
         </routers>
-        <translate>
-            <modules>
-                <Mage_Customer>
-                    <files>
-                        <default>Mage_Customer.csv</default>
-                    </files>
-                </Mage_Customer>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <customer module="Mage_Customer">

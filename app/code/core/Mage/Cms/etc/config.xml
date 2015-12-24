@@ -59,15 +59,6 @@
                 </observers>
             </controller_action_nocookies>
         </events>
-        <translate>
-            <modules>
-                <Mage_Cms>
-                    <files>
-                        <default>Mage_Cms.csv</default>
-                    </files>
-                </Mage_Cms>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <cms>
@@ -77,15 +68,6 @@
         </layout>
     </frontend>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Cms>
-                    <files>
-                        <default>Mage_Cms.csv</default>
-                    </files>
-                </Mage_Cms>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <cms>

@@ -126,15 +126,6 @@
         </events>
     </global>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_Payment>
-                    <files>
-                        <default>Mage_Payment.csv</default>
-                    </files>
-                </Mage_Payment>
-            </modules>
-        </translate>
         <events>
             <catalog_product_type_prepare_full_options>
                 <observers>
@@ -154,15 +145,6 @@
         </layout>
     </frontend>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Payment>
-                    <files>
-                        <default>Mage_Payment.csv</default>
-                    </files>
-                </Mage_Payment>
-            </modules>
-        </translate>
     </adminhtml>
     <default>
         <payment>

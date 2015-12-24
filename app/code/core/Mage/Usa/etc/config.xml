@@ -74,26 +74,8 @@
         </sales>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Usa>
-                    <files>
-                        <default>Mage_Usa.csv</default>
-                    </files>
-                </Mage_Usa>
-            </modules>
-        </translate>
     </adminhtml>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_Usa>
-                    <files>
-                        <default>Mage_Usa.csv</default>
-                    </files>
-                </Mage_Usa>
-            </modules>
-        </translate>
     </frontend>
     <default>
         <system>

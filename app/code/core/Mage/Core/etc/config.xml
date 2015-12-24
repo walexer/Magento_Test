@@ -190,15 +190,6 @@
                 </args>
             </core>
         </routers>
-        <translate>
-            <modules>
-                <Mage_Core>
-                    <files>
-                        <default>Mage_Core.csv</default>
-                    </files>
-                </Mage_Core>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <core>
@@ -208,15 +199,6 @@
         </layout>
     </frontend>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Core>
-                    <files>
-                        <default>Mage_Core.csv</default>
-                    </files>
-                </Mage_Core>
-            </modules>
-        </translate>
         <events>
             <cms_wysiwyg_config_prepare>
                 <observers>

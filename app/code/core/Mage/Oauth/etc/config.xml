@@ -118,15 +118,6 @@
         </routers>
     </admin>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Oauth>
-                    <files>
-                        <default>Mage_Oauth.csv</default>
-                    </files>
-                </Mage_Oauth>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <oauth>
@@ -152,15 +143,6 @@
                 </oauth>
             </updates>
         </layout>
-        <translate>
-            <modules>
-                <Mage_Oauth>
-                    <files>
-                        <default>Mage_Oauth.csv</default>
-                    </files>
-                </Mage_Oauth>
-            </modules>
-        </translate>
     </frontend>
     <default>
         <oauth>

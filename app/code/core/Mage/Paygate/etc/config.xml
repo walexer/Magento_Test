@@ -56,29 +56,11 @@
         </resources>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Paygate>
-                    <files>
-                        <default>Mage_Paygate.csv</default>
-                    </files>
-                </Mage_Paygate>
-            </modules>
-        </translate>
     </adminhtml>
     <frontend>
         <secure_url>
             <authorizenet_paygate>/paygate/authorizenet_payment</authorizenet_paygate>
         </secure_url>
-        <translate>
-            <modules>
-                <Mage_Paygate>
-                    <files>
-                        <default>Mage_Paygate.csv</default>
-                    </files>
-                </Mage_Paygate>
-            </modules>
-        </translate>
         <routers>
             <paygate>
                 <use>standard</use>

@@ -150,15 +150,6 @@
                 </mage_xmlconnect>
             </updates>
         </layout>
-        <translate>
-            <modules>
-                <Mage_XmlConnect>
-                    <files>
-                        <default>Mage_XmlConnect.csv</default>
-                    </files>
-                </Mage_XmlConnect>
-            </modules>
-        </translate>
         <events>
             <core_config_data_save_after>
                 <observers>
@@ -211,15 +202,6 @@
                 </xmlconnect>
             </updates>
         </layout>
-        <translate>
-            <modules>
-                <Mage_XmlConnect>
-                    <files>
-                        <default>Mage_XmlConnect.csv</default>
-                    </files>
-                </Mage_XmlConnect>
-            </modules>
-        </translate>
     </frontend>
     <default>
         <payment>

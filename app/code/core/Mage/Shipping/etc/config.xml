@@ -90,26 +90,8 @@
         </sales>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Shipping>
-                    <files>
-                        <default>Mage_Shipping.csv</default>
-                    </files>
-                </Mage_Shipping>
-            </modules>
-        </translate>
     </adminhtml>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_Shipping>
-                    <files>
-                        <default>Mage_Shipping.csv</default>
-                    </files>
-                </Mage_Shipping>
-            </modules>
-        </translate>
         <routers>
             <shipping>
                 <use>standard</use>

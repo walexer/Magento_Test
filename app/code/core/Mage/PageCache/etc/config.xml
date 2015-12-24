@@ -64,15 +64,6 @@
                 </pagecache>
             </updates>
         </layout>
-        <translate>
-            <modules>
-                <Mage_PageCache>
-                    <files>
-                        <default>Mage_PageCache.csv</default>
-                    </files>
-                </Mage_PageCache>
-            </modules>
-        </translate>
     </adminhtml>
     <frontend>
         <layout>

@@ -208,15 +208,6 @@
                 </args>
             </checkout>
         </routers>
-        <translate>
-            <modules>
-                <Mage_Checkout>
-                    <files>
-                        <default>Mage_Checkout.csv</default>
-                    </files>
-                </Mage_Checkout>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <checkout>

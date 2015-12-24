@@ -72,15 +72,6 @@
         </template>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Sendfriend>
-                    <files>
-                        <default>Mage_Sendfriend.csv</default>
-                    </files>
-                </Mage_Sendfriend>
-            </modules>
-        </translate>
     </adminhtml>
     <frontend>
         <events>
@@ -109,15 +100,6 @@
                 </sendfriend>
             </updates>
         </layout>
-        <translate>
-            <modules>
-                <Mage_Sendfriend>
-                    <files>
-                        <default>Mage_Sendfriend.csv</default>
-                    </files>
-                </Mage_Sendfriend>
-            </modules>
-        </translate>
     </frontend>
     <default>
         <sendfriend>

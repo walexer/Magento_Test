@@ -83,15 +83,6 @@
         </routers>
     </admin>
     <adminhtml>
-        <translate>
-            <modules>
-<!--                <Mage_GoogleBase>-->
-<!--                    <files>-->
-<!--                        <default>Mage_GoogleBase.csv</default>-->
-<!--                    </files>-->
-<!--                </Mage_GoogleBase>-->
-            </modules>
-        </translate>
         <events>
 <!--        <catalog_product_save_after>-->
 <!--            <observers>-->

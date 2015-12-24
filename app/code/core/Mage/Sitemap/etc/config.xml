@@ -65,15 +65,6 @@
         </template>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Sitemap>
-                    <files>
-                        <default>Mage_Sitemap.csv</default>
-                    </files>
-                </Mage_Sitemap>
-            </modules>
-        </translate>
     </adminhtml>
     <default>
         <sitemap>

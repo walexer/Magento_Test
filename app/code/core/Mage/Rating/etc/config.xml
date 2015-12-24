@@ -79,26 +79,8 @@
         </blocks>
     </global>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_Rating>
-                    <files>
-                        <default>Mage_Rating.csv</default>
-                    </files>
-                </Mage_Rating>
-            </modules>
-        </translate>
     </frontend>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Rating>
-                    <files>
-                        <default>Mage_Rating.csv</default>
-                    </files>
-                </Mage_Rating>
-            </modules>
-        </translate>
         <events>
             <catalog_product_delete_after_done>
                 <observers>

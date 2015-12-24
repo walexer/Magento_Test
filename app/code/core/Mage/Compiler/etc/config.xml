@@ -67,15 +67,6 @@
         </routers>
     </admin>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Compiler>
-                    <files>
-                        <default>Mage_Compiler.csv</default>
-                    </files>
-                </Mage_Compiler>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <compiler>

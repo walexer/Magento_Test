@@ -96,15 +96,6 @@
                 </args>
             </api>
         </routers>
-        <translate>
-            <modules>
-                <Mage_Api>
-                    <files>
-                        <default>Mage_Api.csv</default>
-                    </files>
-                </Mage_Api>
-            </modules>
-        </translate>
     </frontend>
     <adminhtml>
         <translate>

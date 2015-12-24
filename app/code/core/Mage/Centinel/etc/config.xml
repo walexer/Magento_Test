@@ -52,15 +52,6 @@
         </events>
     </global>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_Centinel>
-                    <files>
-                        <default>Mage_Centinel.csv</default>
-                    </files>
-                </Mage_Centinel>
-            </modules>
-        </translate>
         <events>
             <payment_form_block_to_html_before>
                 <observers>
@@ -104,15 +95,6 @@
                 </observers>
             </payment_info_block_prepare_specific_information>
         </events>
-        <translate>
-            <modules>
-                <Mage_Centinel>
-                    <files>
-                        <default>Mage_Centinel.csv</default>
-                    </files>
-                </Mage_Centinel>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <centinel>

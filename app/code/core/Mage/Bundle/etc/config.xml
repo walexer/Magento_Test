@@ -167,15 +167,6 @@
         </events>
     </global>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_Bundle>
-                    <files>
-                        <default>Mage_Bundle.csv</default>
-                    </files>
-                </Mage_Bundle>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <bundle>
@@ -252,15 +243,6 @@
         </routers>
     </admin>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Bundle>
-                    <files>
-                        <default>Mage_Bundle.csv</default>
-                    </files>
-                </Mage_Bundle>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <bundle>

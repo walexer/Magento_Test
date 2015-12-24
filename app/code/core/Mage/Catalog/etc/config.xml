@@ -653,15 +653,6 @@
         </eav_attributes>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Catalog>
-                    <files>
-                        <default>Mage_Catalog.csv</default>
-                    </files>
-                </Mage_Catalog>
-            </modules>
-        </translate>
         <events>
             <cms_wysiwyg_images_static_urls_allowed>
                 <observers>
@@ -723,15 +714,6 @@
                 </observers>
             </sales_convert_quote_item_to_order_item>
         </events>
-        <translate>
-            <modules>
-                <Mage_Catalog>
-                    <files>
-                        <default>Mage_Catalog.csv</default>
-                    </files>
-                </Mage_Catalog>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <catalog>

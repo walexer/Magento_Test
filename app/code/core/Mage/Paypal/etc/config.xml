@@ -128,15 +128,6 @@
                 </args>
             </paypal>
         </routers>
-        <translate>
-            <modules>
-                <Mage_Paypal>
-                    <files>
-                        <default>Mage_Paypal.csv</default>
-                    </files>
-                </Mage_Paypal>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <paypal>
@@ -180,15 +171,6 @@
                 </observers>
             </adminhtml_init_system_config>
         </events>
-        <translate>
-            <modules>
-                <Mage_Paypal>
-                    <files>
-                        <default>Mage_Paypal.csv</default>
-                    </files>
-                </Mage_Paypal>
-            </modules>
-        </translate>
     </adminhtml>
     <default>
         <paypal>

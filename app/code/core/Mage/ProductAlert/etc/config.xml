@@ -88,26 +88,8 @@
         </template>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_ProductAlert>
-                    <files>
-                        <default>Mage_ProductAlert.csv</default>
-                    </files>
-                </Mage_ProductAlert>
-            </modules>
-        </translate>
     </adminhtml>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_ProductAlert>
-                    <files>
-                        <default>Mage_ProductAlert.csv</default>
-                    </files>
-                </Mage_ProductAlert>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <productalert>

@@ -188,15 +188,6 @@
         </pdf>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Downloadable>
-                    <files>
-                        <default>Mage_Downloadable.csv</default>
-                    </files>
-                </Mage_Downloadable>
-            </modules>
-        </translate>
         <sales>
             <order>
                 <create>
@@ -254,15 +245,6 @@
             <downloadable>/downloadable/customer/</downloadable>
             <downloadable_download>/downloadable/download/</downloadable_download>
         </secure_url>
-        <translate>
-            <modules>
-                <Mage_Downloadable>
-                    <files>
-                        <default>Mage_Downloadable.csv</default>
-                    </files>
-                </Mage_Downloadable>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <downloadable module="Mage_Downloadable">

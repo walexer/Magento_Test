@@ -91,15 +91,6 @@
                 </args>
             </catalogsearch>
         </routers>
-        <translate>
-            <modules>
-                <Mage_CatalogSearch>
-                    <files>
-                        <default>Mage_CatalogSearch.csv</default>
-                    </files>
-                </Mage_CatalogSearch>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <catalogsearch>
@@ -109,15 +100,6 @@
         </layout>
     </frontend>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_CatalogSearch>
-                    <files>
-                        <default>Mage_CatalogSearch.csv</default>
-                    </files>
-                </Mage_CatalogSearch>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <catalogsearch>

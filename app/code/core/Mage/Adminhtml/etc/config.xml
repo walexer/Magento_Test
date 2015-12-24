@@ -131,15 +131,6 @@
                 <acl>sales</acl>
             </sales>
         </global_search>
-        <translate>
-            <modules>
-                <Mage_Adminhtml>
-                    <files>
-                        <default>Mage_Adminhtml.csv</default>
-                    </files>
-                </Mage_Adminhtml>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <adminhtml>

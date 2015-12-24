@@ -283,26 +283,8 @@
                 </cataloginventory>
             </updates>
         </layout>
-        <translate>
-            <modules>
-                <Mage_CatalogInventory>
-                    <files>
-                        <default>Mage_CatalogInventory.csv</default>
-                    </files>
-                </Mage_CatalogInventory>
-            </modules>
-        </translate>
     </frontend>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_CatalogInventory>
-                    <files>
-                        <default>Mage_CatalogInventory.csv</default>
-                    </files>
-                </Mage_CatalogInventory>
-            </modules>
-        </translate>
         <events>
             <after_reindex_process_cataloginventory_stock>
                 <observers>

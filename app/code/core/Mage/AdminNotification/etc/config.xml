@@ -60,16 +60,7 @@
             </adminnotification_setup>
         </resources>
     </global>
-    <adminhtml>
-        <translate>
-            <modules>
-                <Mage_AdminNotification>
-                    <files>
-                        <default>Mage_AdminNotification.csv</default>
-                    </files>
-                </Mage_AdminNotification>
-            </modules>
-        </translate>
+    <adminhtml>        
         <events>
             <controller_action_predispatch>
                 <observers>

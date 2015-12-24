@@ -57,15 +57,6 @@
         </resources>
     </global>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_GoogleAnalytics>
-                    <files>
-                        <default>Mage_GoogleAnalytics.csv</default>
-                    </files>
-                </Mage_GoogleAnalytics>
-            </modules>
-        </translate>
         <events>
             <checkout_onepage_controller_success_action>
                 <observers>
@@ -93,14 +84,5 @@
         </layout>
     </frontend>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_GoogleAnalytics>
-                    <files>
-                        <default>Mage_GoogleAnalytics.csv</default>
-                    </files>
-                </Mage_GoogleAnalytics>
-            </modules>
-        </translate>
     </adminhtml>
 </config>

@@ -133,9 +133,9 @@ class Mage_Core_Model_Translate
 
         $this->_data = array();
 
-        foreach ($this->getModulesConfig() as $moduleName=>$info) {
-            $info = $info->asArray();
-            $this->_loadModuleTranslation($moduleName, $info['files'], $forceReload);
+        foreach ($this->getModulesConfig() as $moduleName) {
+            $file = $moduleName.'.csv';
+            $this->_loadModuleTranslation($moduleName, $file, $forceReload);
         }
 
         $this->_loadThemeTranslation($forceReload);
@@ -155,15 +155,18 @@ class Mage_Core_Model_Translate
      */
     public function getModulesConfig()
     {
-        if (!Mage::getConfig()->getNode($this->getConfig(self::CONFIG_KEY_AREA).'/translate/modules')) {
-            return array();
-        }
+        
+        $modules = (array)Mage::getConfig()->getNode('modules')->children();
+        
+        $moduleNames = array();
 
-        $config = Mage::getConfig()->getNode($this->getConfig(self::CONFIG_KEY_AREA).'/translate/modules')->children();
-        if (!$config) {
-            return array();
+        foreach($modules as $moduleName => $moduleInfo){
+            if($modules[$moduleName]->is('active')){
+                $moduleNames[] = $moduleName;
+            }
         }
-        return $config;
+        
+        return $moduleNames;
     }
 
     /**
@@ -211,12 +214,11 @@ class Mage_Core_Model_Translate
      * @param   string $files
      * @return  Mage_Core_Model_Translate
      */
-    protected function _loadModuleTranslation($moduleName, $files, $forceReload=false)
+    protected function _loadModuleTranslation($moduleName, $file, $forceReload=false)
     {
-        foreach ($files as $file) {
-            $file = $this->_getModuleFilePath($moduleName, $file);
-            $this->_addData($this->_getFileData($file), $moduleName, $forceReload);
-        }
+        $file = $this->_getModuleFilePath($moduleName, $file);
+        $this->_addData($this->_getFileData($file), $moduleName, $forceReload);
+
         return $this;
     }
 

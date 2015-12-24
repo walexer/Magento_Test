@@ -128,15 +128,6 @@
                 </observers>
             </core_locale_set_locale>
         </events>
-        <translate>
-            <modules>
-                <Mage_Install>
-                    <files>
-                        <default>Mage_Install.csv</default>
-                    </files>
-                </Mage_Install>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <install>

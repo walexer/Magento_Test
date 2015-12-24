@@ -80,14 +80,5 @@
                 </currencysymbol>
             </updates>
         </layout>
-        <translate>
-            <modules>
-                <Mage_CurrencySymbol>
-                     <files>
-                          <default>Mage_CurrencySymbol.csv</default>
-                     </files>
-                </Mage_CurrencySymbol>
-            </modules>
-        </translate>
     </adminhtml>
 </config>

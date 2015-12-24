@@ -62,15 +62,6 @@
                 </configurableswatches>
             </updates>
         </layout>
-        <translate>
-            <modules>
-                <Mage_ConfigurableSwatches>
-                    <files>
-                        <default>Mage_ConfigurableSwatches.csv</default>
-                    </files>
-                </Mage_ConfigurableSwatches>
-            </modules>
-        </translate>
         <events>
             <catalog_product_load_after>
                 <observers>
@@ -120,15 +111,6 @@
     </frontend>
 
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_ConfigurableSwatches>
-                    <files>
-                        <default>Mage_ConfigurableSwatches.csv</default>
-                    </files>
-                </Mage_ConfigurableSwatches>
-            </modules>
-        </translate>
     </adminhtml>
 
     <default>

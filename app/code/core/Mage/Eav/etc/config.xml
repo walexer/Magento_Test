@@ -115,26 +115,8 @@
         </eav_attributes>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Eav>
-                    <files>
-                        <default>Mage_Eav.csv</default>
-                    </files>
-                </Mage_Eav>
-            </modules>
-        </translate>
     </adminhtml>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_Eav>
-                    <files>
-                        <default>Mage_Eav.csv</default>
-                    </files>
-                </Mage_Eav>
-            </modules>
-        </translate>
     </frontend>
     <default>
         <general>

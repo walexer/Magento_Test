@@ -84,15 +84,6 @@
         </widget>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Widget>
-                    <files>
-                        <default>Mage_Widget.csv</default>
-                    </files>
-                </Mage_Widget>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <widget>

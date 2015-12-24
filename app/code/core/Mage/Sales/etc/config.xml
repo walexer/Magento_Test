@@ -1509,15 +1509,6 @@
                 </args>
             </sales>
         </routers>
-        <translate>
-            <modules>
-                <Mage_Sales>
-                    <files>
-                        <default>Mage_Sales.csv</default>
-                    </files>
-                </Mage_Sales>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <sales module="Mage_Sales">
@@ -1559,15 +1550,6 @@
         </events>
     </frontend>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Sales>
-                    <files>
-                        <default>Mage_Sales.csv</default>
-                    </files>
-                </Mage_Sales>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <sales>

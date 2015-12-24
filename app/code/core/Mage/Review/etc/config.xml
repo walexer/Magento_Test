@@ -76,15 +76,6 @@
         </blocks>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Review>
-                    <files>
-                        <default>Mage_Review.csv</default>
-                    </files>
-                </Mage_Review>
-            </modules>
-        </translate>
         <events>
             <catalog_product_delete_after_done>
                 <observers>
@@ -116,15 +107,6 @@
                 </observers>
             </review_save_after>
         </events>
-        <translate>
-            <modules>
-                <Mage_Review>
-                    <files>
-                        <default>Mage_Review.csv</default>
-                    </files>
-                </Mage_Review>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <review module="Mage_Review">

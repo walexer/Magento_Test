@@ -84,26 +84,8 @@
         </events>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Reports>
-                    <files>
-                        <default>Mage_Reports.csv</default>
-                    </files>
-                </Mage_Reports>
-            </modules>
-        </translate>
     </adminhtml>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_Reports>
-                    <files>
-                        <default>Mage_Reports.csv</default>
-                    </files>
-                </Mage_Reports>
-            </modules>
-        </translate>
         <layout>
             <updates>
                 <reports>

@@ -49,25 +49,7 @@
         </blocks>
     </global>
     <adminhtml>
-        <translate>
-            <modules>
-                <Mage_Rule>
-                    <files>
-                        <default>Mage_Rule.csv</default>
-                    </files>
-                </Mage_Rule>
-            </modules>
-        </translate>
     </adminhtml>
     <frontend>
-        <translate>
-            <modules>
-                <Mage_Rule>
-                    <files>
-                        <default>Mage_Rule.csv</default>
-                    </files>
-                </Mage_Rule>
-            </modules>
-        </translate>
     </frontend>
 </config>
