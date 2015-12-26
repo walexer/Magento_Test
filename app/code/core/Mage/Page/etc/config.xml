@@ -85,15 +85,6 @@
     <adminhtml>
     </adminhtml>
     <install>
-        <translate>
-            <modules>
-                <Mage_Page>
-                    <files>
-                        <default>Mage_Page.csv</default>
-                    </files>
-                </Mage_Page>
-            </modules>
-        </translate>
     </install>
     <default>
         <design>

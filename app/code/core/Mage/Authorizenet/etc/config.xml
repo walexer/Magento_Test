@@ -68,15 +68,6 @@
     </adminhtml>
 
     <frontend>
-        <translate>
-            <modules>
-                <Mage_Authorizenet>
-                    <files>
-                        <default>Mage_Authorizenet.csv</default>
-                    </files>
-                </Mage_Authorizenet>
-            </modules>
-        </translate>
          <routers>
             <authorizenet>
                 <use>standard</use>
