@@ -29,6 +29,7 @@
     <modules>
         <Mage_Customer>
             <version>1.6.2.0.4</version>
+            <alias>customer</alias>
         </Mage_Customer>
     </modules>
     <admin>
@@ -470,13 +471,6 @@
                 </args>
             </customer>
         </routers>
-        <layout>
-            <updates>
-                <customer module="Mage_Customer">
-                    <file>customer.xml</file>
-                </customer>
-            </updates>
-        </layout>
     </frontend>
     <default>
         <customer>
