@@ -461,16 +461,7 @@
                     </restore_customer_group_id>
                 </observers>
             </sales_model_service_quote_submit_after>
-        </events>
-        <routers>
-            <customer>
-                <use>standard</use>
-                <args>
-                    <module>Mage_Customer</module>
-                    <frontName>customer</frontName>
-                </args>
-            </customer>
-        </routers>
+        </events>        
     </frontend>
     <default>
         <customer>
