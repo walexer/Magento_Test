@@ -124,6 +124,13 @@ class Mage_Core_Model_Config extends Mage_Core_Model_Config_Base
      * @var array
      */
     protected $_eventAreas;
+    
+    /**
+     * Configuration for events by area
+     *
+     * @var array
+     */
+    protected $_aliasModules = array();
 
     /**
      * Flag cache for existing or already created directories
@@ -1251,7 +1258,13 @@ class Mage_Core_Model_Config extends Mage_Core_Model_Config_Base
                 $className = $config->getClassName();
             }
             if (empty($className)) {
-                $className = 'mage_'.$group.'_'.$groupType;
+                $modules = $this->getAliasConfig();
+                if($modules[$group]){                    
+                    $className = $modules[$group].'_'.$groupType;
+                }
+            }
+            if (empty($className)) {
+                $className = 'mage_'.$group.'_'.$groupType;                
             }
             if (!empty($class)) {
                 $className .= '_'.$class;
@@ -1630,5 +1643,27 @@ class Mage_Core_Model_Config extends Mage_Core_Model_Config_Base
             return $this->getModelClassName($factoryName);
         }
         return false;
+    }
+    
+     /**
+     * Get alias configuration
+     *
+     * @return  array
+     */
+    public function getAliasConfig()
+    {      
+        if (empty($this->_aliasModules)) {
+           $modules = (array)Mage::getConfig()->getNode('modules')->children();    
+                    foreach($modules as $moduleName => $moduleInfo){
+                        if($modules[$moduleName]->is('active')){                
+                            if($alias = $modules[$moduleName]->alias){                    
+                                $alias = (string)$alias;
+                                $this->_aliasModules[$alias] = $moduleName;
+                            }                
+                        }
+                    }
+                    
+        }
+        return $this->_aliasModules;
     }
 }
